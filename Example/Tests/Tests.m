@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 Jan Kowalleck. All rights reserved.
 //
 
-${TEST_EXAMPLE}
+
