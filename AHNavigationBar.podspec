@@ -10,13 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "AHNavigationBar"
   s.version          = "0.1.0"
-  s.summary          = "AHNavigationBar - a UINavigationbar with adjustable height"
+  s.summary          = "AHNavigationBar - a UINavigationBar with adjustable height"
   s.description      = <<-DESC
-#AHNavigationBar - height adjustable UINavigationbar
+#AHNavigationBar - height adjustable UINavigationBar
 
 allows setting the height via code
 
-* `[myBar setHeight:1337]`
+* `[myBar setHeight:23]`
 * `myBar.height = 42`
 
 or in the interface builder
