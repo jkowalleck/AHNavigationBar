@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-IB_DESIGNABLE
+// IB_DESIGNABLE // removed since cocoapods breaks this ... 
 @interface AHNavigationBar : UINavigationBar
 
 @property (nonatomic) IBInspectable NSUInteger height;
