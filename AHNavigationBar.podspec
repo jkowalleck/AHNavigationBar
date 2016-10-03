@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AHNavigationBar"
-  s.version          = "0.1.0"
+  s.version          = "0.2.0"
   s.summary          = "AHNavigationBar - a UINavigationBar with adjustable height"
   s.description      = <<-DESC
 #AHNavigationBar - height adjustable UINavigationBar
