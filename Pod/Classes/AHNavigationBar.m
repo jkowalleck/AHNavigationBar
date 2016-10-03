@@ -73,13 +73,14 @@
 }
 
 static NSString * const backgroundClassName = @"_UINavigationBarBackground";
+static NSString * const backgroundClassNameiOS10 = @"_UIBarBackground";
 
 - (void)layoutSubviews {
 	[super layoutSubviews];
 
 	for (UIView *view in [self subviews]) {
 
-		if ( [NSStringFromClass([view class]) isEqualToString:backgroundClassName] ) {
+		if ( [NSStringFromClass([view class]) isEqualToString:backgroundClassName] || [NSStringFromClass([view class]) isEqualToString:backgroundClassNameiOS10] ) {
 			CGFloat sbHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
 
 			CGRect bounds = view.bounds;
